@@ -1,0 +1,116 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Sedan SC", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+#contenedorPersonajes{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        text-align: center;
+}
+
+
+.articulo{
+    text-align: center;
+
+    color: white;
+
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 5px;
+
+    width: calc(100% / 5); 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 400px; /* Altura deseada para todos los artículos */
+    width: 250px; /* Ancho deseado para todos los artículos */
+    overflow: hidden;
+
+    
+   
+}
+
+.articulo img{
+    height: auto;
+  object-fit: cover
+}
+
+.imagen{
+    width: 100%;
+    margin-top: 4px;
+    height: auto;
+  object-fit: cover
+}
+
+
+.apodo{
+    font-family: "Satisfy", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.casa{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.actor{font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.personaje{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+@media (min-width: 360px) and (max-width: 900px) {
+  
+
+  
+
+  #menu{
+    width: 90%;
+  }
+
+  .pie{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   
+  }
+
+  .legal{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+
+
+  .nombre{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+
+  
+
+  
+}

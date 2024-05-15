@@ -1,0 +1,124 @@
+
+@import url('https://fonts.cdnfonts.com/css/beautiful-magic');
+body{
+ 
+    background-color: black;
+
+}
+
+
+#logo img{width: 46%;}
+
+#menu{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    
+}
+
+
+#listaMenu{
+
+    width: 80%;
+    text-decoration: none;
+}
+#listaMenu ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    
+    
+
+}
+
+#listaMenu a{
+    text-decoration: none;
+    font-family: 'Beautiful Magic', sans-serif;
+    font-size: x-large;
+    color: red;
+   
+
+}
+
+/*Contenido*/
+
+#contenido{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Beautiful Magic', sans-serif;
+    font-size: xx-large;
+    display: none;
+
+}
+
+#imagen img{
+    width: 10%;
+}
+
+/*pie*/
+
+.pie{
+  
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.pie li{
+    list-style: none;
+}
+
+.pie a{
+    text-decoration: none;
+}
+
+.iconos-redes{
+    width: 10%;
+    
+}
+
+#copi{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+@media (min-width: 360px) and (max-width: 900px) {
+
+  
+    #menu{
+      width: 90%;
+    }
+  
+    .pie{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+     
+    }
+  
+    .legal{
+      text-align: center;
+      margin: auto;
+      width: 50%;
+    }
+  
+  
+    .nombre{
+      text-align: center;
+      margin: auto;
+      width: 50%;
+    }
+  
+    
+  
+    
+  }
+  

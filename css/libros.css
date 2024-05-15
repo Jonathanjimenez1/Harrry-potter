@@ -1,0 +1,134 @@
+#contenedorDelibros{
+  
+    display: flex;
+    flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+    
+}
+
+.libro {
+   
+    width: 200px; /* Ancho del div */
+    height: 260px; /* Alto del div */
+    width: 50%;
+    margin: auto;
+
+   
+    background-color: #f1f1f1; /* Color de fondo del div */
+    border: 1px solid #ccc; /* Borde del div */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: calc(100% / 3); 
+     
+       border: 2px solid #c50909;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(216, 18, 18, 0.1);
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+  }
+
+  .titulo{
+     font-family: Impact, Charcoal, sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+  }
+
+  .fecha{
+     font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+  }
+
+
+  .autor{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 1.2px;
+  color: #000000;
+  font-weight: 900;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+  }
+  
+  .descripcion{
+
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  word-spacing: 1.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+    
+   
+  }
+
+
+  /*movil*/
+
+  
+@media (min-width: 360px) and (max-width: 900px) {
+  
+
+  .libro{
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom: 12px;
+  }
+
+  #menu{
+    width: 90%;
+  }
+
+  .pie{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   
+  }
+
+  .legal{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+
+
+  .nombre{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+
+  
+
+  
+}
+
+ 
