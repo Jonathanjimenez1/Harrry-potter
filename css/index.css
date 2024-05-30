@@ -1,0 +1,210 @@
+#escoba{
+    position: fixed;
+    left: -100%; /* Posiciona la imagen fuera del borde izquierdo de la pantalla */
+    top: 52%;
+    transform: translate(0, -50%); /* Centra verticalmente la imagen */
+    transition: left 4s; /* Agrega una animación para que la imagen aparezca desde el lado izquierdo */
+    
+}
+
+#contenedorBocadillo{
+    
+    position: fixed;
+    display: none;
+    top: 13%;
+    left: 21%;
+    margin: auto;
+    text-align: center;
+    }
+
+#bocadillo{
+    text-align: center;
+    font-family: fantasy;
+}
+
+#botonVarita{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#bocadillo {
+    overflow: hidden; /* Oculta el texto que aparecerá poco a poco */
+    animation: aparecer 5s forwards; /* Duración de la animación */
+}
+
+@keyframes aparecer {
+    from { 
+        opacity: 0; /* Empieza con el texto invisible */
+        transform: translateY(50px); /* Inicia desde una posición desplazada */
+    }
+    to { 
+        opacity: 1; /* Termina con el texto completamente visible */
+        transform: translateY(0); /* Vuelve a su posición original */
+    }
+}
+
+/*movil*/
+
+@media (min-width: 320px) and (max-width: 350px) {
+    #contenedorBocadillo {
+        position: fixed;
+        top: 3%;
+        left: 0%;
+        
+        margin: auto;
+      
+    }
+
+    #contenedorImagen img{
+     
+        margin-left: -20%;
+        margin-top: 20%;
+        
+    }
+  }
+
+@media (min-width: 350px) and (max-width: 900px) {
+    #contenedorBocadillo {
+        position: fixed;
+        top: 16%;
+        left: 0%;
+        
+        margin: auto;
+      
+    }
+
+    #contenedorImagen img{
+     
+        margin-left: -20%;
+       
+        
+    }
+  }
+
+
+
+
+  
+   
+
+    
+
+   
+
+
+  
+  @media (min-width:820px ) and (max-width:912px) {
+    #contenedorBocadillo {
+        margin: auto;
+        text-align: center;
+        position: fixed;
+        top: 30%;
+        left: 13%;
+       
+    }
+
+    
+
+    #contenedorImagen img{
+     
+     
+        text-align: center;
+        
+        margin-left: 1%;
+      
+        
+    }
+  }
+
+
+
+  @media (min-width:768px ) and (max-width:850px) {
+    #contenedorBocadillo {
+        margin: auto;
+        text-align: center;
+        position: fixed;
+        top: 30%;
+        left: 10%;
+       
+    }
+
+    
+
+    #contenedorImagen img{
+     
+     
+        text-align: center;
+        
+        margin-left: 1%;
+      
+        
+    }
+  }
+
+
+  
+  @media (min-width:360px ) and (max-width:768px) {
+    #contenedorBocadillo {
+        margin: auto;
+        text-align: center;
+        position: fixed;
+       
+        
+       
+    }
+
+    
+
+    #contenedorImagen img{
+     
+     
+        text-align: center;
+        
+        margin-right: 17%;
+        margin-top: 8%;
+      
+        
+    }
+  }
+
+
+  @media (min-width:1600px ) and (max-width:1900px) {
+    #contenedorBocadillo {
+        margin: auto;
+        text-align: center;
+        position: fixed;
+        top: 30%;
+        left: 23%;
+       
+        
+       
+    }
+
+    
+
+    #contenedorImagen img{
+     
+     
+        text-align: center;
+        
+        margin-right: 17%;
+        margin-top: 3%;
+      
+        
+    }
+  }
+
+ 
+
+    
+
+    
+  
+
+
+
+  
+
+
+
